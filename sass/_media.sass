@@ -1,0 +1,277 @@
+@media ( max-width: 1200px)
+	.menu
+		&_link
+			font-size: 14px
+		&_item
+			padding-right: 14px
+	.promo
+		&_heading_big
+			font-size: 55px
+		&_heading_little
+			font-size: 33px
+	.advantages
+		&_descr
+			width: 287px
+	.mobile
+		&_item
+			width: 300px
+	.footer
+		&_wrapper
+			flex-direction: column
+		&_social
+			margin-top: 50px
+		&_googleplay
+			margin-top: 20px
+@media ( max-width: 991px)
+	.menu
+		&_link
+			font-size: 10px
+		&_item
+			padding-right: 8px
+	.subheader
+		.logo
+			&_text
+				font-size: 11px
+		.numbe
+			&_phone
+				font-size: 20px
+		button
+			width: 100%
+			height: 43px
+	.promo
+		&_heading_big
+			font-size: 40px
+		&_heading_little
+			font-size: 30px
+	.advantages
+		&_item
+			flex-direction: column
+			align-items: center
+		&_round
+			margin: 0
+		&_descr
+			margin-top: 20px
+	.title
+		font-size: 30px
+	.subtitle 
+		font-size: 14px
+	.mobile
+		&_item
+			width: 230px
+			height: 0px
+			padding-bottom: 66.5%
+			&_subtitle
+				font-size: 18px
+	.uberx
+		min-height: 650px
+		&_img
+			bottom: -270px
+		img
+			width: 685px
+		&_bg_2
+			height: 260px
+@media ( max-width: 767px)
+	.menu
+		position: fixed
+		flex-direction: column
+		align-items: center
+		justify-content: center
+		top: 0
+		left: -100%
+		width: 50%
+		height: 100vh
+		background-color: rgba(0, 0, 0, .8)
+		padding: 20px 15px
+		transition: 0.6s all
+		&_active
+			left: 0
+		&_item
+			margin-top: 10px
+			border: none
+			padding-right: 0
+		&_link
+			font-size: 15px
+	.hamburger
+		position: absolute
+		width: 26px
+		top: 50%
+		transform: translateY(-50%)
+		right: 10px
+		height: 15px
+		span
+			margin-bottom: 3px
+			display: block
+			width: 100%
+			height: 2px
+			background-color: #fff
+			transition: 0.6s all
+		&_active
+			span
+				&:nth-child(1)
+					margin-bottom: -3px
+					transform: translateY(2px) rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					margin-bottom: -3px
+					transform: translateY(3px) rotate(45deg)
+	.logo_text
+		display: none
+	.xs-hidden
+		display: none
+	.subheader
+		.logo
+			margin-top: 25px
+		.numbe_phone
+			display: block
+			color: #ffffff
+			font-size: 18px
+			font-weight: 400
+			text-align: center
+			text-transform: uppercase
+			margin-top: 10px
+		.xs-visible
+			display: block
+		.btn
+			display: block
+			width: 200px
+			height: 40px
+			margin: 0 auto
+			margin-top: 10px
+	.promo
+		&_heading_big
+			font-size: 36px
+		&_heading_little
+			font-size: 26px
+		&_text
+			font-size: 16px
+			line-height: 22px
+	.title
+		font-size: 26px
+	.mobile
+		&_item 
+			padding-bottom: 36%
+			width: 330px
+	.uberx
+		img
+			width: 540px
+		&_bg
+			min-height: 380px
+@media ( max-width: 575px)
+	.menu
+		&_item
+			width: 100%
+		&_link
+			display: block
+			text-align: center
+			padding: 5px 0
+	.subheader
+		min-height: 60px
+		.logo
+		.numbe_phone
+			font-size: 12px
+		.btn
+			width: 110px
+			height: 22px
+			font-size: 10px
+			margin-top: 5px
+			border-radius: 2px
+			&:hover
+				background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+	nav
+		height: 30px
+	.subheader
+		transform: translateY(30px)
+	.promo
+		.container
+			padding-right: 24px
+			padding-left: 24px
+		min-height: 400px
+		padding: 142px 0 35px 0
+		&_heading_big
+			font-size: 30px
+			line-height: 35px
+		&_heading_little
+			font-size: 20px
+			line-height: 22px
+		&_text
+			display: none
+		&_btn
+			width: 210px
+			height: 50px
+			border-radius: 2px
+			margin-top: 72px
+			&:hover
+				background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+	.advantages, .mobile
+		padding: 22px 0 43px 0
+	.title
+		margin-top: 15px
+		font-size: 16px
+		line-height: normal
+	.subtitle
+		margin-top: 11px
+		font-size: 14px
+		line-height: 21px
+	.mobile
+		&_item
+			width: 290px
+			padding-bottom: 53%
+	.uberx
+		min-height: 390px
+		&_bg
+			min-height: 390px
+			padding-top: 22px
+		&_bg_2
+			display: none
+		&_img
+			width: 300px
+			bottom: 64px
+		img
+			width: 100%
+		&_text
+			color: #ffffff
+			font-size: 17px
+			font-weight: 300
+			text-align: center
+		.title_white
+			display: none
+		.subtitle_white
+			display: none
+	.conditions
+		padding: 25px 0
+		&_wrlist
+			margin-bottom: 40px
+			&:last-child
+				margin-bottom: 0
+	.world
+		min-height: 360px
+		.city
+			min-width: 250px
+			font-size: 14px
+	.footer
+		position: relative
+		.footer_line
+			width: 253px
+		&_link
+			&_big
+				width: 281px
+				a
+					font-size: 14px
+			&_little
+				width: 244px
+				min-height: 41px
+				margin: 16px auto
+				align-items: center
+				flex-flow: wrap
+		&_social
+			margin-top: 96px
+		&_googleplay 
+			img
+				width: 80px
+		&_language
+			position: absolute
+			top: 119px
+			left: 50%
+			transform: translateX(-50%)
+			margin: 0
